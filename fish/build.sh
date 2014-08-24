@@ -7,7 +7,7 @@ wget -O "fish-${FISH_VERSION}.tar.gz" "http://fishshell.com/files/2.1.0/fish-${F
 rm -rf "fish-${FISH_VERSION}"
 \tar xvf "fish-${FISH_VERSION}.tar.gz"
 cd "fish-${FISH_VERSION}"
-./configure --prefix="$HOME/local"
+./configure --prefix="$HOME/.local"
 make -j 8
 make install
 

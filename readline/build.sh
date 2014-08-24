@@ -7,6 +7,6 @@ wget -O "readline-${READLINE_VERSION}.tar.gz" "https://ftp.gnu.org/gnu/readline/
 rm -rf "readline-${READLINE_VERSION}"
 \tar xvf "readline-${READLINE_VERSION}.tar.gz"
 cd "readline-${READLINE_VERSION}"
-./configure --prefix=$HOME/local
+./configure --prefix=$HOME/.local
 make -j 8
 make install

@@ -8,6 +8,6 @@ rm -rf "cgdb-${CGDB_VERSION}"
 \tar xvf "cgdb-${CGDB_VERSION}.tar.gz"
 cd "cgdb-${CGDB_VERSION}"
 ./autogen.sh
-./configure --prefix="$HOME/local" CFLAGS="-I${HOME}/local/include" LDFLAGS="-L${HOME}/local/lib"
+./configure --prefix="$HOME/.local" CFLAGS="-I${HOME}/.local/include" LDFLAGS="-L${HOME}/.local/lib"
 make -j 8
 make install

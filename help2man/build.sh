@@ -7,6 +7,6 @@ wget -O "help2man-${HELP2MAN_VERSION}.tar.xz" "https://ftp.gnu.org/gnu/help2man/
 rm -rf "help2man-${HELP2MAN_VERSION}"
 \tar xvf "help2man-${HELP2MAN_VERSION}.tar.xz"
 cd "help2man-${HELP2MAN_VERSION}"
-./configure --prefix=$HOME/local
+./configure --prefix=$HOME/.local
 make -j 8
 make install

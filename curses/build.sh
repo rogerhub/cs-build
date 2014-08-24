@@ -7,6 +7,6 @@ wget -O "ncurses-${NCURSES_VERSION}.tar.gz" "https://ftp.gnu.org/gnu/ncurses/ncu
 rm -rf "ncurses-${NCURSES_VERSION}"
 \tar xvf "ncurses-${NCURSES_VERSION}.tar.gz"
 cd "ncurses-${NCURSES_VERSION}"
-./configure --prefix=$HOME/local
+./configure --prefix=$HOME/.local
 make -j 8
 make install
