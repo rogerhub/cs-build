@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "$(dirname $0)/../preamble.sh"
+source "$(dirname "$0")/../preamble.sh"
 
 CGDB_VERSION=0.6.7
 wget -O "cgdb-${CGDB_VERSION}.tar.gz" "https://github.com/cgdb/cgdb/archive/v${CGDB_VERSION}.tar.gz"
